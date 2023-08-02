@@ -4,12 +4,29 @@ body {
     margin: 0px;
 }
 
+
+h1 {
+    margin-top: 120px;
+}
+
+
+/* -----------------------------
+----------HEADER------------- */
+
+
 header {
     background-color: #B4B3B3;
     height: 29px;
     width: 950px;
     margin: auto;
 }
+
+
+
+/* -----------------------------
+----------HERO--------------- */
+
+
 
 #hero {
     background-image: url("images/snow-wood.jpg");
@@ -23,30 +40,195 @@ header {
     font-size: 25px;
     text-align: center;
     
+    
 }
 
-h1 {
-    margin-top: 120px;
-}
+@keyframes animation {
+    0% {
+      opacity: 0;
+      bottom: -240px;
+    }
+
+    100% {
+      opacity: 1;
+      bottom: 0;
+    }
+  }
+
+  .animation {
+    position: relative;
+    animation: animation 3s ease-out;
+  }
+
+/* -----------------------------
+----------NAVBAR------------- */
 
 nav {
-    background: rgba(203, 213, 219, 0.60);
-    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.50);
+    background: rgba(0, 150, 199, 0.60);
     width: 910px;
     margin: auto auto;
     display: flex;
     justify-content: space-evenly;
     padding: 20px 20px;
-
+    border: 3px solid white;
+    
 }
+
+/* -----------------------------
+----------BUTTONS------------ */
 
 button {
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.60);
-    background: linear-gradient(180deg, #FFF 0%, rgba(75, 140, 199, 0.46) 100%);
+    background: linear-gradient(180deg, #FFF 0%, rgba(75, 140, 199, 0.46) 90%);
     padding: 5px 35px 5px 35px;
     color: #426E95;
-    font-style:
+    font-weight: bold;
 }
 
 
+/* -----------------------------
+----------PART1-------------- */
+
+
+
+section {
+    background: linear-gradient(107deg, #426E95 0%, rgba(73, 145, 209, 0.89) 100%);
+    width: 950px;
+    height: 507px;
+    margin: auto;
+
+}
+
+
+.snow1-img {
+    width: 242px;
+    height: 161px;
+    border-radius: 15px;
+    border-right: 5px solid rgba(255, 255, 255, 0.70);
+    border-left: 5px solid rgba(255, 255, 255, 0.70);
+    margin: 50px 679px 280px 29px;
+}
+
+span {
+
+
+    border-top: 1px solid white;
+    padding: 2px;
+}
+
+.h2-head1 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    margin: -475px 56px -300px 324px;
+    color: #FFFFFF;
+
+}
+
+
+.p-text1 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 310px 56px -300px 324px;
+    color: #FFFFFF;
+    border-bottom: 1px solid white;
+    padding: 2px;
+
+}
+
+
+
+
+
+
+/* -----------------------------
+----------------------------- */
+
+.line-space {
+    margin: auto;
+    width: 950px;
+    height: 30px;
+    background: #F2F2F2;
+    filter: blur(15px);
+}
+
+
+
+/* -----------------------------
+----------IMAGES------------- */
+
+.img-merge {
+    
+    
+    
+    
+}
+
+
+
+#img-merge1 {
+    
+    width: 600px;
+    height: 300px;
+    clip-path: polygon(0 0, 100% 0, 61% 100%, 0% 100%);
+    position: absolute; 
+    top: 0; 
+    left: -350px;
+    top: 1300px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transition: ease-in-out;
+    
+    
+}
+
+#img-merge1:hover {
+ 
+}
+
+
+#img-merge2 {
+    
+    width: 600px;
+    height: 300px;
+    clip-path: polygon(41% 0, 100% 0, 100% 100%, 0% 100%);
+    position: absolute;
+    left: -125px;
+    top: 4px;
+    left: 350px;
+    top: 1300px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+   
+}
+
+
+/* -----------------------------
+----------ENDPAGE------------ */
+
+
+.end {
+    margin: auto;
+    width: 950px;
+    height: 676px;
+    background: linear-gradient(360deg, rgba(2, 123, 201, 0.89) 0%, rgba(73, 145, 209, 0.22) 70%);
+
+}
+
+
+/* ----------------------------------
+---------------FOTTER------------- */
+
+
+#fotter {
+    background: #B4B3B3;
+    width: 950px;
+    height: 200px;
+    
+}
